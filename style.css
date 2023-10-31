@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-container {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3rem;
+    height: 20rem;
+    width: auto;
+}
+
+.util1 {
+    margin: 1rem;;
+}
+  
