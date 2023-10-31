@@ -3,7 +3,7 @@
 let grabData = async function(city) {
     console.log(city);
     try {
-        let fetchApi = await fetch(`http://api.weatherapi.com/v1/current.json?key=863ba49fd3574cd78f332016233110&q=${city}&aqi=yes`);
+        let fetchApi = await fetch(`https://api.weatherapi.com/v1/current.json?key=863ba49fd3574cd78f332016233110&q=${city}&aqi=yes`);
         let data = await fetchApi.json();
         // console.log(data);
         useData(data);
