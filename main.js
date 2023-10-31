@@ -40,7 +40,7 @@ city.addEventListener("change", (e) => {
 })
 
 window.addEventListener("load", (e) => {
-    grabData("Toronto");
+    grabData("Barrie");
 })
 
 
